@@ -24,4 +24,5 @@ def func():
 if __name__ == "__main__":
     import uvicorn
 
+    exec_cmd("git pull")
     uvicorn.run("main:app", debug=False, reload=False, host="0.0.0.0")
